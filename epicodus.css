@@ -1,0 +1,126 @@
+/*----------------- General -----------------*/
+
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/*----------------- Navigation -----------------*/
+nav ul {
+  list-style-type: none;
+  margin: 2em 0;
+  position: absolute;
+  top: 0.2rem;
+  right: 1rem;
+}
+
+nav li {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0 1em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li:hover {
+  color: #ffff33;
+}
+
+.border-link {
+  border: 2px solid #fff;
+  padding: 0.5em;
+  border-radius: 5px;
+  
+  text-transform: uppercase;
+}
+
+.background-decoration {
+  border: 2px solid #ffff33;
+  border-radius: 5px;
+  padding: 0.5em 0.7em;
+  
+  background-color: #ffdb4d;
+  color: black;
+  
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.background-decoration:hover {
+  box-shadow: 3px 3px 1.5px #000;
+}
+
+/*----------------- Body -----------------*/
+
+.main-image img {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.main-content {
+  text-align: center;
+  position: absolute;
+  color: white;
+  
+  margin: 0;
+  padding: 0;
+  top: 10em;
+  right: 8em;
+  left: 8em;
+}
+
+.main-content img {
+  width: 10%;
+}
+
+figcaption h1 {
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 0.4em;
+  margin: 0;
+}
+
+
+figcaption p {
+  font-size: 2em;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.buttons {
+  position: absolute;
+  margin: 0;
+  right: 8em;
+  left: 8em;
+}
+
+.buttons p {
+  display: inline-block;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #fff;
+  
+  padding: 1em;
+  margin: 0;
+}
+
+.buttons p:last-child {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-left: 1.5em;
+}
+
+
+
+
+

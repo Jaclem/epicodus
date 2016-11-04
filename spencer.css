@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/*------------ Masthead ------------*/
+
+header {
+  background-color: bisque;
+  padding: .5em;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.friend-count {
+  color: red;
+}
+
+/*------------ Body ------------*/
+
+img {
+  width: 100%;
+}
+
+h2 {
+  padding: 0.5rem;
+}
+
+.inline-block {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 3em;
+  max-width: 300px;
+}
